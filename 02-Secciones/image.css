@@ -1,0 +1,37 @@
+.main{
+ 
+    .image-work{
+        background-color: #d3d3d3;
+        .image{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap:25px;
+            .foto-me{
+            border: 1px solid #171718;
+            margin-inline-start: 40%  ;  
+            border-radius: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 15%;
+            max-width: 30%;
+            margin-block-start: 5%;
+            margin-block-end: 5%;
+        }
+        .logo-dev{
+            background-size: cover;
+            margin-inline-start: 40%  ;  
+            border-radius: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 15%;
+            max-width: 30%;
+            margin-block-start: 5%;
+            margin-block-end: 5%;
+        }
+     }
+    
+    }
+}

@@ -1,0 +1,29 @@
+:root{
+    --font-primary:"DM Sans", Sans-serif;
+    --font-title: "Playfair Display", Sans-serif;
+    
+    html{
+        font-family: var(--font-primary);
+        h1,h2,h3,h4,h5,h6{
+            font-family: var(--font-title);
+            margin: 0;
+            background-color: #f9f9f9;
+        
+            
+          }
+
+    }
+
+}
+.container{
+    .container{
+        max-width: 1300px;
+        margin: 0  auto;
+      /*  border: 1px solid red;*/
+      }
+}
+body{
+    background-image: url(/imagenes/devopsfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

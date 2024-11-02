@@ -1,0 +1,36 @@
+.header{
+    background-color: #9ce0db;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 500%;
+        font-family: var(--font-primary);
+        font-size: 3rem;
+        color: #960018;
+        margin-block-end: 65px;
+        .nombre-titulo{
+            gap:25px;
+            font-family: var(--font-title);
+        }
+        .navegacion-info{
+            gap: 4px;
+            .ul-flex{
+                gap: 25px;
+                display: flex;
+                align-items: flex-end;
+                .li-flex{
+                    background-color: #dcdcdc;
+                    gap: 5px;
+                    border-radius: 34px;
+                    transition: background-color .5s;
+                    font-weight: 500;
+                    &:hover{
+                    background-color: #fff;
+                  }
+                }
+            }
+
+        }
+    }
+}

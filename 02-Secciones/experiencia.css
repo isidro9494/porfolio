@@ -1,0 +1,35 @@
+.Experiencia{
+    margin-block-start: 15px;
+    margin-inline-start: 35px;
+    margin-block-end: 15px;
+    margin-block-end: 35px;
+    .container{
+        padding: 26px 55px;
+        justify-content: center;
+        margin-block-end:45px;
+  .Tit-dos{
+        color: #050404;
+        text-align: center;
+        justify-content: center;
+        font-size: 50px;
+        margin-block-end: 45px;
+        text-decoration: none;
+        text-shadow: 12px;
+    }
+    .Empresas-grid{
+      padding: 30px 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: auto auto;
+      gap:25px;
+      color: #dcdcdc;
+    }
+    .Empresas-varias{
+      padding: 25px 35px;
+     
+      line-height: 1.3;
+
+    }
+
+}
+}
