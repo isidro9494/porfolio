@@ -1,0 +1,42 @@
+.contact{
+    background-color: #212F3C;
+    border:1px solid #414536;
+    border-radius: 17px;
+    margin: 25px;
+    color:#dcdcdc;
+    .container{
+        justify-content: center;
+        text-align: center;
+        padding:10px;
+        >h2{
+            font-family: var(--font-title);
+            font-size: 50px;
+            text-align: center;
+            margin-inline-start: 30%;
+            margin-inline-end: 30%;
+            margin-block-end: 25px;
+        }
+        .contacto-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap:25px;
+            .icon{
+                display: inline-block;
+                max-width: 35px;
+                gap:25px;
+            }
+            .contact-list{
+                font-size: 30px ;
+                justify-content: center;
+                text-decoration: underline;
+                cursor: pointer;
+                &:active{
+                    background-color: #ff6f61; 
+                     color: #fff; 
+                }
+            }
+        }
+
+    }
+}
